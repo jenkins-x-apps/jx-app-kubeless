@@ -1,4 +1,4 @@
 dependencies:
 - name: kubeless
-  repository: https://kubernetes-charts.storage.googleapis.com
+  repository: https://kubernetes-charts-incubator.storage.googleapis.com
   version: 2.1.1
