@@ -11,6 +11,7 @@ init:
 
 setup: init
 	helm repo add jenkinsxio http://chartmuseum.jenkins-x.io
+	helm repo add kubernetes-incubator https://kubernetes-charts-incubator.storage.googleapis.com
 
 build: clean setup
 	rm -rf requirements.lock
